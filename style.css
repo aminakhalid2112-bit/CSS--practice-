@@ -1,0 +1,75 @@
+/*Amina Khalid*/
+
+Element Selectors
+
+body{
+    background-color:#eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color:red;
+}
+
+#hero p {
+    color: red;
+    font-size: 12px;
+}
+
+/* Headings */
+
+h2 {
+    color: blue;
+}
+
+/* Star after headings */
+
+h2::after {
+    content: "★";
+    color: red;
+}
+
+/* Features */
+
+.feature {
+    padding: 10px;
+}
+
+.bordered {
+    border: 2px solid red;
+}
+
+/* Pricing */
+
+.price {
+    padding: 10px;
+}
+
+.highlight {
+    background-color: lightblue; /* fixed typo here */
+    border: 2px solid;
+}
+
+/* External link BELOW box */
+
+.external-link {
+    display: block;
+    margin-top: 5px;
+    color: orange;
+}
+
+/* Form inputs */
+
+input[type="email"] {
+    border: 2px solid green;
+}
+
+input[type="password"] {
+    border: 2px solid red;
+}
+
+/* Hover */
+
+button:hover {
+    background-color: yellow;
+}
